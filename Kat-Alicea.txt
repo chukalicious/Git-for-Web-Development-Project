@@ -1,2 +1,116 @@
 https://codepen.io/chukalicious/pen/bGVMQrK?editors=1100
 
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+  <!--
+  Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+  
+      1. What is Semantic HTML? 
+        It's HTML with meaning to transmit to search engines what is in our code.
+      2. What is HTML used for? 
+      3. What is an attribute and where do we put it? 
+        An attribute is extra information about out elements. The attributes go inside the element tag.
+      4. What is the h1 tag used for? How many times should I use it on a page?
+        The H1 is the title of the page and ideallly it should be used only once. 
+      5. Name two tags that have required attributes
+        <a> and <img>
+      6. What do we put in the head of our HTML document? 
+        <!DOCTYPE html>
+      7. What is an id? 
+            a unique attribute applied to an element
+      8. What elements can I add an id to? 
+            all of them
+      9. How many times can I use the same id on a page? 
+            once
+      10. What is a class? 
+            an attribute applied to one or more elements
+      11. What elements can I add a class to? 
+            all of them
+      12. How many times can I use the same class on a page? 
+            multiple times
+      13. How do I get my link to open in a new tab?
+            by assigning the attribute and value target='_blank' to the 'a' tag
+      14. What is the alt attribute in the image tag used for? 
+            to describe what the image is of, in case there's an accessibility issue with the user/browser
+      15. How do I reference an id?
+            I don't understand this question. Do you mean how you target an ID in CSS? If that's the case, you reference an ID by typing #id-name {property: value} Otherwise get back to me as to what is requiered with this question
+      16. What is the difference between a section and a div
+            a section is semantic HTML, while a div is used for styling, meaning there could be anything in there and no indication as to what the content is is offered
+      17. What is CSS used for? 
+            for styling a page
+      18. How to we select an element? Example - every h2 on the page
+            h2 {
+                property: value;
+            }
+      19. What is the difference between a class and an id? - Give me an example of when I might use each one
+            an ID is used only once per element, per page. A class can be applied to multiple elements
+      20. How do we select classes in CSS?
+            .className {
+                property: value; 
+            }
+      21. How do we select a p element with a single class of “human””?
+            .human p {
+
+            }
+      22. What is a parent child selector? When would this be useful? 
+            This is used to select all the children of an element. This can help with avoiding repeating yourself in your code. 
+      23. How do you select all links within a div with the class of sidebar?
+            .sidebar div a {
+
+            }
+      24. What is a pseudo selector?
+            they are used to add properties to an element when the element is in a specific state
+      25. What do we use the change the spacing between lines?
+            line-height
+      26. What do we use to change the spacing between letters?
+            letter-spacing
+      27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+            Capitals: text-transform: capitalize;
+            Lowercase: text-transform: lowercase; 
+            Uppercase: text-transform: uppercase;
+      28. How do I add a 1px border around my div that is dotted and black?
+            border: black dotted;
+      29. How do I select everything on the page? 
+            by applying a universal selector
+            * {
+
+            }
+      30. How do I write a comment in CSS?
+            /*  */
+      31. How do I find out what file I am in, when I am using the command line? 
+            pwd
+      32. Using the command line - how do I see a list of files/folders in my current folder?
+            ls
+      33. How do I remove a file via the command line? Why do I have to be careful with this? 
+            rm; you need to be careful with it because once removed on the terminal it's gone forever. It is not moved to the recycle bin and it's not recoverable
+      34. Why should I use version control? 
+            to be able to go back to a specific time, or save in the project and allow other to contribute in the project in a more or less seamless way
+      35. How often should I commit to github?
+            more than once a day
+      36. What is the command we would use to push our repo up to github? 
+            git push
+      37. Walk me through Lambda's git flow. 
+            -fork directory
+            -clone directory
+            -create my own branch
+            -
+
+  
+  Stretch Questions
+  
+      1. What is the difference between an inline element and a block element?
+            a block element takes the full length of the page, an inline element does not and other elements can be placed next to it, they don't break to another line, like block elements do
+      2. What happens when an element is positioned absolutely? 
+            it means that it position value is fixed
+      3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+            using the box-sizing: border-box; combo
+      4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+            block: p, div, h1
+            inline: img, a, 
+            inline-block: i'm going to go out on a limb and say img
+      5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+            before, when an element was given the heigh and width properties, and then added paaing, margin, border, all of these would add to the size of the element mamking it not only have the assiged width and height but also the border, padding etc made the element stretch beyond its inteded size. with the box model fix, all those 'add-ons' to an element would need to conform to the actual w + h given to an element and now those add ons do now expand on the element and cannot affect the surrounding elements
+  
+  
+  
+     --> 
+
